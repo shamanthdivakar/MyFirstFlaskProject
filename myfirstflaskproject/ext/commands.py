@@ -1,8 +1,8 @@
 import click
 
-from project_name.ext.auth import create_user
-from project_name.ext.database import db
-from project_name.models import Product
+from myfirstflaskproject.ext.auth import create_user
+from myfirstflaskproject.ext.database import db
+from myfirstflaskproject.models import Product
 
 
 def create_db():
